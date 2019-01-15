@@ -1,0 +1,26 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/26 12:51:23 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/26 18:47:30 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+#
+# Dans quel fichier se trouve la version installée de votre Debian ?
+#
+# /Volumes/Storage/goinfre/lucdubos/vagrant/data/machine-index/index 
+# /Volumes/Storage/goinfre/lucdubos/vagrant/boxes/debian-VAGRANTSLASH-stretch64/9.5.0/virtualbox/box.ovf config VM avec la version
+# /Volumes/Storage/goinfre/lucdubos/vagrant/boxes/debian-VAGRANTSLASH-stretch64/9.5.0/virtualbox/stretch.vmdk le fichier de VM.
+# /Volumes/Storage/goinfre/lucdubos/vagrant/setup_version fichier contenant la version.
+# ^^^^^ sur le local et non de la VM ^^^^^
+# sur le debian > sudo cat /etc/debian_version
+/etc/debian_version 
+
+
+

@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    14                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/26 18:17:20 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/26 18:24:45 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#
+# . Lancez en background la commande tail -f /var/log/syslog
+# 
+# -f => boucle indefiniment pour lire plus
+# https://openclassrooms.com/fr/courses/43538-reprenez-le-controle-a-laide-de-linux/40849-executer-des-programmes-en-arriere-plan
+# le & en fin de ligne de commande lance la tache en arriere plan
+# "[i]" i = numero du processus en cours  
+
+sudo tail -f /var/log/syslog &

@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    08                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/26 16:16:36 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/26 16:29:06 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+#
+# Quel fichier contient les clés RSA des machines autorisées à se connecter via SSH ?
+# https://doc.fedora-fr.org/wiki/SSH_:_Authentification_par_cl%C3%A9
+#
+echo 'elle se trouve dans le fichier ~/.ssh/authorized_keys'

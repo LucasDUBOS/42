@@ -1,0 +1,23 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/26 17:53:27 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/26 17:58:08 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+#
+# Quelle commande permet d’acher
+# l’espace disponible et utilisé sur le système
+# d’une manière humainement compréhensible ? ?
+#
+# df ==>indique les quantités d'espaces disques utilisées 
+# et disponibles sur les systèmes de fichiers
+# -h convertit les valeurs d octet en Giga ou Mega
+
+df -h

@@ -1,0 +1,24 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    12                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/26 17:58:14 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/31 12:37:23 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+#
+# Déterminez la taille exacte de chaque dossier de /var d’une manière 
+# humainement compréhensible suivi du chemin de celui-ci.
+#
+# ls -ladh affiche seulement la taille de dossier
+#
+# la commande du affiche la quantité d'espace disque utilisée par chacun des 
+# arguments, et pour chaque sous-répertoire des répertoires indiqués en argument.
+# -s pour avoir le total de chaque argument (dossier)
+
+sudo du -hs /var/*

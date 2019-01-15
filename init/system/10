@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    10                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/26 17:12:26 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/26 17:53:12 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+#
+# Quelle commande permet de lister les tables de partitions des disques ?
+#
+# fdisk ==> sert a manipuler les tables de partitions pour linux
+# -l les listes
+
+sudo fdisk -l

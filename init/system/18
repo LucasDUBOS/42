@@ -1,0 +1,23 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    18                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/26 19:19:50 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/26 19:44:03 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+#
+# . Avec la commande précédente, autorisez uniquement les IPs provenant de 
+# 10.0.0.0/8 à se connecter sur votre système
+#
+# http://debian-facile.org/doc:reseau:iptables-pare-feu-pour-un-client
+# -A ajoute une regle
+# iptables -A "la chaine(INPUT,OUTPUT,(FORWARD?))" "l'ip" -j "ETA(ACCEPT,REJECT,DROP)
+
+sudo iptables -A INPUT 10.0.0.0/8 -j ACCEPT
+

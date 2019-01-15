@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/25 14:50:42 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/25 14:51:29 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+# . Récupérez la liste des interfaces réseau de la machine sans afficher
+# aucun détail
+# pour ces interfaces. Vraiment juste la liste des noms.
+
+ifconfig -l

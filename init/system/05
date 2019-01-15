@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    05                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/26 13:39:48 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/26 15:09:10 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+#
+# Donnez une commande qui détermine l’état du service SSH
+# ssh est un script avec des commandes comme status pour connaitre l etat
+# 
+# ou systemctl status ssh.service
+#
+/etc/init.d/ssh status

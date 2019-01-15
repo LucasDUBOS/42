@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/25 14:42:24 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/25 15:41:05 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+# Trouvez grâce au résultat de la commande précédente le nom et l’IP du 
+# matériel qui fait le lien entre vous (réseau local) et l’extérieur
+#
+# https://www.culture-informatique.net/cest-quoi-le-nat-cest-quoi-le-pat/
+# NAT : Network Address Translation (Traduction d’adresse réseau)
+
+echo 'nat-1 (10.60.1.11)'

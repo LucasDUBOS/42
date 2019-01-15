@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    13                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/26 18:13:01 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/26 18:16:58 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+#
+# Trouvez une commande qui permet, en temps réel, de trouver 
+# les processus en cours d’exécution
+#
+# top => vu d ensemble en temps reel des programmes en cours d execution
+
+top

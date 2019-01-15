@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/25 14:51:05 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/25 14:55:24 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+# Identifiez et aiffichez
+# les caractéristiques de l’interface Ethernet
+# en0 = ethernet
+ifconfig en0 | grep "inet " | cut -d " " -f2

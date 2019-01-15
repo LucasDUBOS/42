@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    15                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/26 18:24:59 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/26 19:04:28 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+#
+# Trouvez une commande qui permet de tuer le processus de la 
+# commande en background
+#
+# kill demande le pid qui apparemment change aleatoirement
+# pkill demande le nom de commande
+
+sudo pkill tail

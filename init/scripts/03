@@ -1,0 +1,23 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    03                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/29 19:35:03 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/30 16:07:54 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+#
+# Réaliser un script qui affiche la liste des fichiers triés 
+# par taille présents dans le dossier passé en argument
+# 
+# -S : trie en fonction de la taille de fichiers
+# -1 affichage par ligne plus cool
+# $ pour recevoir l argument comme argv[]
+# find $1 -type f pour uniquement les fichiers mais tout est fichier (avec sous fichier)
+
+ls -1S $1

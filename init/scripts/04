@@ -1,0 +1,30 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    04                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/30 16:08:07 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/31 12:43:11 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+#
+# Réaliser un script qui permet de surveiller les modifications du fichier 
+# /etc/crontab et envoie un mail à root si celui-ci a été modifié. 
+# Créez une tache plannifiée pour script tous les jours a minuit
+#
+#
+# https://doc.ubuntu-fr.org/md5sum
+# https://openclassrooms.com/fr/courses/43538-reprenez-le-controle-a-laide-de-linux/43394-les-conditions
+#
+
+file=$(find /etc -mindepth 1 -maxdepth 1 -name "crontab" -mtime -1)
+if [ "$file" ] ; then
+	mail -s "Crontab modifié" root@root.com
+fi
+
+# pour l add : "0 0 * * * ~/init/scripts/04 | crontab"
+# ou crontab -e pour pas ecraser

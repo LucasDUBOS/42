@@ -1,0 +1,31 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/29 15:18:35 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/30 16:39:07 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+#
+# Réaliser un script qui met à jour l’ensemble des sources de package, 
+# puis de vos packages et qui log l’ensemble dans un fichier 
+# nommé /var/log/update_script.log. Créez une tache plannifiée 
+# pour ce script une fois par semaine à 4h00 du matin.
+#
+# https://doc.ubuntu-fr.org/cron
+# https://docs.oracle.com/cd/E24843_01/html/E23087/sysrescron-12.html#sysrescron-60540
+# crontab -u root -e (creation d un crontab pour root)
+# crontab -l >> affiche ce qu il y a dedans (utilisateur si pas precisier)
+#
+# select-editor  Changer config en Vim
+# /var/spool/cron/crontab/vagrant
+#
+
+echo "sudo apt-get update >> /var/log/upfate_script.log && sudo apt-get upgrade >> /var/log/update_script.log" > tmpfile_upgrade.sh
+chmod 777 tmpfile_upgrade.sh
+echo "* 4 * * 1 ~/tmpfile_upgrade.sh" | crontab

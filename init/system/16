@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    16                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/26 19:04:33 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/26 19:06:53 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+#
+# . Trouvez un service qui permet de lancer des tâches à horaires régulières
+#
+# cron => demon qui execute des commandes programmees dans le temps
+
+echo 'cron'

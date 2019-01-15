@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/26 13:19:00 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/26 13:22:49 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+#
+# Quelle commande permet de renommer votre système ?
+#
+# la commande est hostname "nouveau nom"
+# il faut etre root
+
+echo 'sudo hostname NouveauNom'

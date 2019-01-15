@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    14                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/25 16:24:16 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/25 16:52:10 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+
+# Quel est le fichier contenant les entrées locales DNS ?
+# https://debian-handbook.info/browse/fr-FR/stable/sect.hostname-name-service.html
+# contient le DNS local et le fichier dans lequel on peut en rajouter
+echo '/etc/hosts'

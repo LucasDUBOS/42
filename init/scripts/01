@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/29 15:15:06 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/29 15:18:09 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+#
+# Réaliser un script qui ache seulement le login, le UID et le Path de chaques
+# entrée du fichier /etc/passwd
+#
+#	sed et column pour rendre le resultat plus lisible.
+# (-t determine le nombre de valeur pour creer un tableau)
+
+cat /etc/passwd | cut -d: -f1,3,6 | sed -e 's/:/    /g' | column -t
+

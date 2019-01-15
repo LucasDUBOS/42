@@ -1,0 +1,24 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    06                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: lucdubos <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/10/26 14:56:06 by lucdubos          #+#    #+#              #
+#    Updated: 2018/10/26 16:05:33 by lucdubos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash 
+#
+# Donnez une commande pour redémarrer le service SSH
+#
+# normalement :
+# /etc/init.d/ssh restart
+# ou
+# systemctl restart ssh.service
+# si polkit demander : sudo apt-get install policykit-1
+# verifier que la commande fonctionne :
+# systemctl status ssh avant et apres , elle sera active depuis quelque seconde
+sudo systemctl restart ssh
