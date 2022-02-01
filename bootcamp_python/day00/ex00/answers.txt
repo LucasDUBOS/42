@@ -1,5 +1,0 @@
-pip list # avec version
-pip list
-pip show numpy
-pip search tesseract
-pip freeze
